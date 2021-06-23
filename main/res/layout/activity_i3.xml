@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624405878159"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+
+        android:layout_margin="20dp"
+
+        android:background="#F4EFEF"
+        android:gravity="center"
+        android:text=" 3. Cut down on the bloat "
+        android:textColor="#070707"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="367dp"
+        android:layout_height="558dp"
+        android:background="#F4EFEF"
+        android:text="You might think that leaving older, unused programs on your hard drive is pretty harmless, but as more and more applications mount up, your operating system has to work harder and the files on your computer get broken up more often and spread out further as your computer tries to save them—something known as fragmentation. As a result, the amount of free storage space can quickly become limited. If you’ve noticed your computer is running more slowly, crashing at odd times, or showing some other kind of buggy behavior, it might be that it’s simply creaking under the weight of all the software you’ve got installed. You can uninstall applications you no longer need from the Apps section of Settings in Windows, or by dragging the app shortcut into the trash on macOS. Some macOS apps can be removed from the Launchpad by clicking and holding on an icon until it shakes, then clicking the X icon  Keep your browser as lean as possible and it’ll run more smoothly David Nield The same goes for your browser—having too many extensions and add-ons can lead to a serious slowdown or some erratic behavior, so limit your extensions to the ones you actually need and use. In Google Chrome, click the three dots in the top right, and go to More Tools, then Extensions; in Firefox choose Add-ons from the main app menu; and in Microsoft Edge, choose Extensions from the main app menu. If your computer is running low on disk space, it can lead to a number of problems, including occasional crashes and slow performance. Once you’ve removed unneeded apps, try removing unneeded files too, like movies you’ve already watched or duplicate photos you’ve got safely backed up somewhere else. Generally speaking, the less bloated your system, the fewer problems you’ll run into. " />
+
+    <Button
+        android:id="@+id/bexity"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        app:backgroundTint="#939191" />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624405878159"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+
+        android:layout_margin="20dp"
+
+        android:background="#FAF6F6"
+        android:gravity="center"
+        android:text="2. Update your software"
+        android:textColor="#070707"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="367dp"
+        android:layout_height="558dp"
+        android:background="#FAF6F6"
+        android:text="Many computer problems are caused by outdated and un-patched software, from outbreaks of ransomware to glitchy keyboards that refuse to spit out the correct letters when you tap them. Fortunately, many updates now occur automatically, because they’re so important—which is why your computer might suddenly reboot when you weren’t expecting it to.
+Focus on your operating system first. On Windows you can look for updates by opening Settings, then clicking Update and security; on macOS, launch the App Store from the dock or the Applications screen in Finder, then switch to the Updates tab. Make sure you apply any updates that are pending.
+ Most software updates should be handled automatically, but it’s always good to check. David Nield
+It’s important to check for updates to your other applications, including your web browser and your antivirus program, even if you’ve set them to update automatically. The update feature should be fairly prominent in any app, but consult the built-in help options if you get stuck.
+After applying all the updates you can find, your issues might be fixed. If they are, maintain this process as a way to prevent future problems in addition to fixing existing ones. Make sure as many of your installed applications are updating themselves automatically in the background, and you should run into fewer computer issues as a result.
+" />
+
+    <Button
+        android:id="@+id/bexite"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        app:backgroundTint="#939191" />
+
+
+</LinearLayout>

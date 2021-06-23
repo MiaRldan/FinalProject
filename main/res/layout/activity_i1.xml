@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624405878159"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+
+        android:layout_margin="20dp"
+
+        android:background="#F3EBEB"
+        android:gravity="center"
+        android:text="1. Run a thorough virus scan"
+        android:textColor="#070707"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="367dp"
+        android:layout_height="558dp"
+        android:background="#F3EBEB"
+        android:text=" It’s obvious, but it’s effective: Fire up your virus-scanning software, launch the deepest and most thorough scan available, and leave it to do its work. Note that the most comprehensive type of scan (which looks at the most files and takes the longest time to complete) may not be the scan that your computer is set to run by default, so check the program settings to see what’s available. You’ll also want to make sure your scanner is up to date first, so it can catch the most recent wave of bad code. Antivirus scanners can sometimes miss threats or be disabled by them, so it’s worth getting a second opinion. A lot of antivirus developers make lightweight, on-demand scanners you can install alongside your main security software as a second layer of protection—applications like Kaspersky Security Scan for Windows or macOS, or Microsoft Safety Scanner for Windows, or Emsisoft Emergency Kit for Windows.  Windows Defender on Windows 10 checks a variety of computer health factors. David Nield You’ll find more antivirus programs around for Windows because it has a history of being attacked by the greater proportion of malware. While macOS is quite comprehensively locked down, especially if you stick to the Mac App Store for your applications, you can never be 100 percent sure you’re safe, so it’s always worth having an antivirus program or two on hand to troubleshoot system problems. All kinds of computer crashes and slowdowns can be caused by viruses and other malware. It’s worth running a scan if your system has become sluggish, is suddenly behaving strangely, or seems overrun with advertising. If threats are found, your antivirus program will know how to combat them; if you get a clean bill of health, you can try some other troubleshooting options to fix whatever issue you’re having. " />
+
+    <Button
+        android:id="@+id/bexit"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        app:backgroundTint="#939191" />
+
+
+</LinearLayout>

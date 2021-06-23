@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624405878159"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="289dp"
+        android:layout_height="77dp"
+
+        android:layout_margin="20dp"
+
+        android:background="#FAF5F5"
+        android:gravity="center"
+        android:text="Repair Tech"
+        android:textColor="#070707"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Virus"
+        app:backgroundTint="#939191" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:text="Software Update"
+        app:backgroundTint="#939191" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:text="Cut on the Bloat"
+        app:backgroundTint="#939191" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Wifi Connection"
+        app:backgroundTint="#939191" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:text="REINSTALL THE OPERATING SYSTEM"
+        app:backgroundTint="#939191" />
+
+
+</LinearLayout>

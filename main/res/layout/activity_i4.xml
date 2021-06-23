@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624405878159"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+
+        android:layout_margin="20dp"
+
+        android:background="#FAF7F7"
+        android:gravity="center"
+        android:text="4. Test your Wi-Fi connection"
+        android:textColor="#070707"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="367dp"
+        android:layout_height="558dp"
+        android:background="#FAF7F7"
+        android:text="This troubleshooting technique only applies to internet-related problems—one very specific category of issue. The key to getting your internet up and running again is to work out where the problem lies, and the detective work isn’t as difficult as you might think. If you can, plug your laptop or desktop computer straight into your router with an Ethernet cable. If you still don’t get internet and nothing connected to Wi-Fi is getting internet (like phones and tablets), then the problem may lie with your router hardware or your internet service provider. If that’s the case, your best option is to get on the phone with the company and ask for assistance.  Wi-Fi woes often have a simple solution. David Nield If some devices can get online and others can’t, that points to problems with those specific devices. We can’t cover every conceivable issue here, but rebooting those gadgets, updating the software installed on them, and switching Wi-Fi off and back on again to establish the connection from scratch are good first steps. If your computer can get online when plugged directly into the router but not when it’s browsing over Wi-Fi, you might be looking at a problem with your Wi-Fi network. We’ve written before about getting the strongest possible signal around your house, but if that doesn’t get you anywhere, reboot your router and dive into its on-board settings—a quick web search based on the router’s make and model should surface some information about troubleshooting tricks you can try. " />
+
+    <Button
+        android:id="@+id/bexiti"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        app:backgroundTint="#939191" />
+
+
+</LinearLayout>

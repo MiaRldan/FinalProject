@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    android:background="@drawable/_624405878159"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+
+        android:layout_margin="20dp"
+
+        android:background="#F1EEEE"
+        android:gravity="center"
+        android:text="5. Reinstall the operating system"
+        android:textColor="#070707"
+        android:textSize="24sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:background="#F1EEEE">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Reinstalling Windows or macOS and starting from scratch is a more extreme version of the “cut down on the bloat” solution we mentioned above. It wipes out troublesome programs, erases many viruses and types of malware, resets your internet connection settings and generally gives you a blank slate. You’ll want to make sure that you have all your data backed up before starting the reinstallation process. What makes this worth trying is that Microsoft and Apple have made reinstalling their operating systems so straightforward. On Windows, you can head to Update and Security from Settings, then choose Recovery, and select Get started under Reset this PC (more here), whereas on macOS your process will vary depending on whether your computer uses Apple silicon or an Intel processor. For the few new models with silicon, turn on your device and continue to hold the power button until the startup options window appears. Choose Option, then hit Continue. If you have an Intel processor, turn on your Mac and continue to hold Cmd+R to launch the Utilities program (more here). Then follow the installer’s instructions.  Resetting Windows isn’t the long and arduous process it once was. David Nield By setting your system back to square one, you’re theoretically wiping away whatever was causing the issue you’re having, though there’s no guarantee it’ll work. You’ll also need to consider the hassle of getting all your applications and files back on the system afterwards, so it’s not the right choice for everyone in every situation. In our experience though, we’ve found it to be an effective fix for a lot of computer ills. We can’t promise that these five tips will solve every problem you’re having but they will at least enable you to rule out some basic possibilities as far as root causes go. We’re also not trying to diminish the importance of your local PC repair shop—and that should be your next port of call if your computer’s still struggling at the end of this guide.  " />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bexitp"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        app:backgroundTint="#939191" />
+
+
+</LinearLayout>
